@@ -24,85 +24,14 @@
   src: url("../fonts/FontAwesome/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/FontAwesome/fontawesome-webfont.woff") format("woff"), url("../fonts/FontAwesome/fontawesome-webfont.ttf") format("truetype");
 }
 
+body {
+  font-family: "Raleway" sans-serif;
+  overflow-x: hidden;
+}
+
 .row {
   padding-left: 0;
   padding-right: 0;
-}
-
-.header__wrapper {
-  border-bottom: 1px solid #e5e5e5;
-  padding: 15px 0;
-}
-
-.header .info {
-  display: flex;
-  align-items: center;
-  position: relative;
-}
-
-.header .info:not(:first-child) {
-  margin-left: 30px;
-}
-
-.header .info__wrapper {
-  display: flex;
-}
-
-.header .info__icon {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  border: 2px solid rgba(50, 50, 50, 0.1);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 15px;
-}
-
-.header .info__icon.color-1 {
-  color: #fcdd3f;
-}
-
-.header .info__icon.color-2 {
-  color: #f9a450;
-}
-
-.header .info__icon.color-3 {
-  color: #a2cc41;
-}
-
-.header .info__content {
-  color: #787878;
-}
-
-.header .info__content .content__header {
-  margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 11px;
-  letter-spacing: 0.1em;
-  line-height: 1;
-}
-
-.header .info__content .content__text {
-  font-weight: bold;
-  font-family: "Open Sans";
-  font-size: 18px;
-  letter-spacing: -0.025em;
-  display: block;
-  line-height: 1;
-}
-
-.header .info__content .content__text.color-3 {
-  color: #a2cc41;
-}
-
-.header .info:not(:last-child):after {
-  content: "|";
-  position: absolute;
-  right: -15px;
-  color: rgba(50, 50, 50, 0.1);
 }
 
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
@@ -7736,6 +7665,127 @@ html {
   margin: 0;
   overflow: visible;
   clip: auto;
+}
+
+.header__wrapper {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 15px 0;
+}
+
+.header .info {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.header .info:not(:first-child) {
+  margin-left: 30px;
+}
+
+.header .info__wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header .info__icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid rgba(50, 50, 50, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.header .info__icon.color-1 {
+  color: #fcdd3f;
+}
+
+.header .info__icon.color-2 {
+  color: #f9a450;
+}
+
+.header .info__icon.color-3 {
+  color: #a2cc41;
+}
+
+.header .info__content {
+  color: #787878;
+}
+
+.header .info__content .content__header {
+  margin-bottom: 0;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  line-height: 1;
+}
+
+.header .info__content .content__text {
+  font-weight: bold;
+  font-family: "Open Sans";
+  font-size: 18px;
+  letter-spacing: -0.025em;
+  display: block;
+  line-height: 1;
+}
+
+.header .info__content .content__text.color-3 {
+  color: #a2cc41;
+}
+
+.header .info:not(:last-child):after {
+  content: "|";
+  position: absolute;
+  right: -15px;
+  color: rgba(50, 50, 50, 0.1);
+}
+
+.nav {
+  display: flex;
+}
+
+.nav__item {
+  margin-right: 25px;
+}
+
+.nav__item:not(:first-child) {
+  margin: 0 25px;
+}
+
+.nav__item__link {
+  display: inline-block;
+  padding: 28px 0;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  color: #323232;
+  transition: color .3s ease;
+}
+
+.nav__item__link.color-4 {
+  color: #fcdd3f;
+}
+
+.nav__item__link:hover {
+  color: #a2cc41;
+}
+
+.head-icon {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.head-icon__item {
+  margin-left: 15px;
+}
+
+.head-icon__item a {
+  color: #787878;
 }
 
 /*==========	user style	==========*/
