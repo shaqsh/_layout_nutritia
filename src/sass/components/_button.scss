@@ -1,0 +1,29 @@
+.btn {
+    text-transform: uppercase;
+    padding: 15px 30px;
+    background-color: #ffffff;
+    border: 1px solid;
+    font-weight: bold;
+    font-size: 13px;
+    border-radius: 40px;
+    min-width: 200px;
+    display: inline-block;
+    text-align: center;
+
+    &__theme1 {
+        background-color: #a2cc41;
+        border-color: transparent;
+        color: white;
+        &:hover {
+            color: black;
+        }
+    }
+
+    &__color1 {
+        color: #fcdd3f;
+        border-color: #fcdd3f;
+        &:hover {
+            color: black;
+        }
+    }
+}

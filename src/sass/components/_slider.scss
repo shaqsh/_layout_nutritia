@@ -1,0 +1,43 @@
+.slider {
+    position: relative;
+
+    &__item {
+
+        &__img {
+            height: 100%;
+        }
+        
+        &__content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+
+    &__content {
+        font-family: "Raleway", sans-serif;
+        line-height: 0.9;
+        h6 {
+            text-transform: uppercase;
+            color: #f9a450;
+            font-size: 16px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            padding-bottom: 15px;
+        }
+
+        h2 {
+            font-size: 60px;
+            color: #323232;
+            }
+
+        p {
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 1.5;
+            padding-top: 17px;
+            color: #787878;
+        }
+    }
+}
